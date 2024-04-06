@@ -40,6 +40,12 @@
                 <span class="btn text-light bg-dark active" ><input type="range" class="form-range" min="0" max="10"></span>
                 <span class="btn text-light bg-dark active">+</span>
               </div>
+              <div class="btn-group d-flex me-4" role="group">
+                <span class="btn text-light bg-dark active">Zoom</span>
+                <span class="btn text-light bg-dark active">-</span>
+                <span class="btn text-light bg-dark active" ><input type="range" class="form-range" min="512" max="8192"></span>
+                <span class="btn text-light bg-dark active">+</span>
+              </div>
               <div class="btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="cyan" class="bi bi-circle-fill" viewBox="0 0 16 16">
                   <circle cx="8" cy="8" r="8"/>
@@ -56,34 +62,45 @@
       </nav>
      
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
-            <canvas></canvas>
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+          <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH1</span>
+            <canvas class="">
+
+            </canvas>
+
         </div>
       </div>
 
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
-            <canvas></canvas>
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH1</span>
+            <canvas>
+          
+            </canvas>
         </div>
       </div>
 
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH2</span>
             <canvas></canvas>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH3</span>
             <canvas></canvas>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH4</span>
             <canvas></canvas>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="mt-4 mb-4 bg-dark text-white rounded">
+        <div class="mt-4 mb-4 bg-dark text-white rounded position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary fs-6">CH5</span>
             <canvas></canvas>
         </div>
       </div>
